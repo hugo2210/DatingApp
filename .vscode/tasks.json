@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/DattingApp/DattingApp.csproj",
+                "${workspaceFolder}/API/DattingApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/DattingApp/DattingApp.csproj",
+                "${workspaceFolder}/API/DattingApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/DattingApp/DattingApp.csproj"
+                "${workspaceFolder}/API/DattingApp.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
